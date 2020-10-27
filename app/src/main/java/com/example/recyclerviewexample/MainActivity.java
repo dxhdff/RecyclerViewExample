@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         MyMovieData[] myMovieData = new MyMovieData[]{
-                new MyMovieData("Avengers","2019 film",R.drawable.avenger),
+                new MyMovieData("Royal Botanical Gardens","Nature",R.drawable.botanic),
                 new MyMovieData("Venom","2018 film",R.drawable.venom),
                 new MyMovieData("Batman Begins","2005 film",R.drawable.batman),
                 new MyMovieData("Jumanji","2019 film",R.drawable.jumanji),
